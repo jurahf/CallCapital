@@ -42,6 +42,25 @@ namespace CallCapital.Controllers
 
 
 
+        // такой же, как GET, только POST. А то "салют" не может GET-параметры передать
+        [HttpPost]
+        [ActionName("PostRandom")]
+        [Route("[action]")]
+        public Capital PostRandom([FromBody] QueryQuestionArgs args)
+        {
+            return dataService.GetRandom(args.userId, args.points);
+        }
+
 
     }
+
+
+    public class QueryQuestionArgs
+    {
+        public string userId { get; set; }
+        public int points { get; set; }
+    }
+
+
+
 }
