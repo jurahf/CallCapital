@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30804.86
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CallCapital", "CallCapital\CallCapital.csproj", "{91D6A699-2B9C-4A6D-BA22-C20A8118AB13}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services", "Services\Services.csproj", "{598B01BC-7BF7-42D7-8D0F-99699D0074EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{91D6A699-2B9C-4A6D-BA22-C20A8118AB13}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91D6A699-2B9C-4A6D-BA22-C20A8118AB13}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91D6A699-2B9C-4A6D-BA22-C20A8118AB13}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91D6A699-2B9C-4A6D-BA22-C20A8118AB13}.Release|Any CPU.Build.0 = Release|Any CPU
+		{598B01BC-7BF7-42D7-8D0F-99699D0074EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{598B01BC-7BF7-42D7-8D0F-99699D0074EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{598B01BC-7BF7-42D7-8D0F-99699D0074EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{598B01BC-7BF7-42D7-8D0F-99699D0074EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {71922C97-884D-406F-A408-86341BC44AC7}
+	EndGlobalSection
+EndGlobal
