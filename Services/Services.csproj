@@ -6,10 +6,14 @@
 
   <ItemGroup>
     <None Remove="CapitalServices\Data\CAPITAL.csv" />
+    <None Remove="CrocodileServices\Data\Crocodile.txt" />
   </ItemGroup>
 
   <ItemGroup>
     <EmbeddedResource Include="CapitalServices\Data\CAPITAL.csv">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CrocodileServices\Data\Crocodile.txt">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </EmbeddedResource>
   </ItemGroup>

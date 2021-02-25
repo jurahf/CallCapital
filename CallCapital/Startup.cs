@@ -9,6 +9,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Services.CapitalServices;
+using Services.CrocodileServices;
 using Services.GameResultServices;
 using Services.Interfaces;
 using System;
@@ -36,6 +37,7 @@ namespace CallCapital
 
             services.AddScoped<ICapitalDataService, CapitalDataService>();
             services.AddScoped<IGameResultService, GameResultService>();
+            services.AddScoped<ICrocodileDataService, CrocodileDataService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
